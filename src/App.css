@@ -31,6 +31,10 @@
 .link:hover {
   color: blueviolet;
 }
+.logo-flex {
+  display: flex;
+  align-items: center;
+}
 input,
 textarea {
   width: 100%;
