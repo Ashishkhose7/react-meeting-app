@@ -3,9 +3,14 @@ function Navbar() {
   return (
     <div className="navbar">
       <nav className="nav">
-        <Link to="/" className="link logo">
-          Meetings
-        </Link>
+         <div className="logo-flex">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/3824/3824371.png"
+              alt="logo"
+              style={{ marginRight: "8px", height: "28px", width: "28px" }}
+            />
+            WebMeet
+          </div>
         <div>
           <Link to="/" className="link ">
             All Meetings
